@@ -1,0 +1,61 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* README.md
+* default.properties
+* lib/
+* lib/AndEngineBox2DPack.jar
+* out/
+* out/production/
+* out/production/PhysicsEditorExample/
+* out/production/PhysicsEditorExample/PhysicsEditorExample.apk
+* out/production/PhysicsEditorExample/PhysicsEditorExample.apk.res
+* out/production/PhysicsEditorExample/PhysicsEditorExample.apk.unaligned
+* out/production/PhysicsEditorExample/classes.dex
+* out/production/PhysicsEditorExample/com/
+* out/production/PhysicsEditorExample/com/example/
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/PhysicsEditorExample.class
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/PhysicsEditorShapeLibrary$1.class
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/PhysicsEditorShapeLibrary$BodyTemplate.class
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/PhysicsEditorShapeLibrary$FixtureTemplate.class
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/PhysicsEditorShapeLibrary$PolygonTemplate.class
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/PhysicsEditorShapeLibrary$ShapeLoader.class
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/PhysicsEditorShapeLibrary.class
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/R$attr.class
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/R$drawable.class
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/R$string.class
+* out/production/PhysicsEditorExample/com/example/PhysicsEditorExample/R.class
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => physicsEditorExtension/src/main/AndroidManifest.xml
+* assets/ => physicsEditorExtension/src/main/assets/
+* libs/armeabi-v7a/libandenginephysicsbox2dextension.so => physicsEditorExtension/src/main/jniLibs/armeabi-v7a/libandenginephysicsbox2dextension.so
+* libs/armeabi/libandenginephysicsbox2dextension.so => physicsEditorExtension/src/main/jniLibs/armeabi/libandenginephysicsbox2dextension.so
+* res/ => physicsEditorExtension/src/main/res/
+* src/ => physicsEditorExtension/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
